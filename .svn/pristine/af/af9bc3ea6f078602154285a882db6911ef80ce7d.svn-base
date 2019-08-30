@@ -1,0 +1,54 @@
+var Api = (function () {
+    
+    var url_dev = "http://localhost:8080";    // 开发环境
+    var url_test = "http://192.168.90.135:8080";  // 测试环境
+    var url_proxy = "/api";   // 本地环境 webpack.proxy跨域
+    var url = url_dev;
+    
+    var url_categoryList =  url+'/mypage/wmgl/index/index/indexController/getWmGoods'; // 获取商品列表
+    var url_takeoutList = url+'/mypage/wmgl/takeout/takeoutInfo/getList';   // 获取可订餐的外卖列表
+    var url_clearCart = url+'/mypage/wmgl/index/shoppingCart/clearCart';  // 清空菜品接口
+    var url_getCartData = url+'/mypage/wmgl/index/shoppingCart/getCartData'; // 获取购物车数据
+    var url_editCart = url+'/mypage/wmgl/index/shoppingCart/addCart';  // 修改购物车信息
+    var url_getNotice = url+'/mypage/wmgl/notice/getLast';  // 获取最新一条通知公告内容
+    var url_isLock = url+'/mypage/wmgl/losecredit/getLoseState';  // 获取用户是否被锁定
+    var url_placeOrder = url+'/mypage/wmgl/index/order/placeOrder';
+
+    function getTakeoutListUrl() {
+        return  url_takeoutList;
+    }
+    function getClearCart() {
+        return  url_clearCart;
+    }
+    function getCartData() {
+        return  url_getCartData;
+    }
+    function getEditCart() {
+        return  url_editCart;
+    }
+    function getNotice() {
+        return  url_getNotice;
+    }
+    function getCategoryList() {
+        return url_categoryList;
+    }
+    function getIsLock() {
+        return url_isLock;
+    }
+    function getPlaceOrder(params) {
+        return url_placeOrder;
+    }
+    return {
+		url:url,
+        takeoutListUrl:getTakeoutListUrl(),
+        clearCartUrl:getClearCart(),
+        cartDataUrl:getCartData(),
+        editCartUrl:getEditCart(),
+        noticeUrl:getNotice(),
+        categoryListUrl:getCategoryList(),
+        isLockUrl:getIsLock(),
+        placeOrderUrl:getPlaceOrder()
+    }
+})()
+
+export default Api
