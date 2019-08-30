@@ -1,5 +1,9 @@
 # ordeing-meals
 
+外卖预定页面
+
+接口文档：https://www.showdoc.cc/353919191299356?page_id=2049908124599837
+
 > A Vue.js project
 
 ## Build Setup
