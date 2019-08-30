@@ -1,0 +1,32 @@
+{
+	"flag": "1",
+	"data": [{
+		"attentionItem": "1、点餐时注意不浪费原则\r\n2、请根据取餐时间前来取餐，过期不到者计入失信1次，失信3次后账号会被锁定无法在进行购买\r\n3、请自行计划价钱",
+		"copy": "",
+		"creChushiId": "",
+		"creChushiName": "",
+		"creDeptId": "",
+		"creDeptName": "",
+		"creJuId": "",
+		"creJuName": "",
+		"creTime": "",
+		"creUserId": "",
+		"creUserName": "",
+		"cz": "",
+		"deadlineTime": "2019-08-31 00:00:00",
+		"detil": [],
+		"id": "4028d0916c50ece9016c510deb6c0007",
+		"mark": "",
+		"name": "外卖测试",
+		"orderNo": "0",
+		"status": "",
+		"stop": "1",
+		"takeFoodTime": "2019-09-09 00:00:00 - 2019-09-11 00:00:00",
+		"title": "201902",
+		"tongji": "",
+		"updateTime": "",
+		"updateUserId": "",
+		"updateUserName": "",
+		"visible": ""
+	}]
+}
